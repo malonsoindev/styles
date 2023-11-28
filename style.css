@@ -1,0 +1,36 @@
+html *{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 2rem;
+}
+
+body > div{
+    margin-top: 3rem !important;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box > div{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.box > div > h3{
+    margin: 0 0 2rem 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: var(--g-color);
+    text-align: center;
+}

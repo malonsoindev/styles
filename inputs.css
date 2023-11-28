@@ -1,0 +1,9 @@
+@import url("inputs/input1.css"); 
+@import url("inputs/input2.css");
+
+:root{
+    --bg-color: #fff;
+    --font-color: #333;
+    --label-color: #999;
+    --g-color: #5264AE;
+}

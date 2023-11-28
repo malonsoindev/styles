@@ -1,0 +1,36 @@
+/* Contenedor */
+.input-container {
+    position: relative;
+    margin: 1rem;
+}
+
+/*Input Field*/
+.input-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--g-color);
+    padding: 0.5rem 0rem;
+    font-size: 1.2rem;
+    color: var(--font-color);
+}
+
+/* Etiqueta */
+.input-container label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--label-color);
+    transition: 0.3s;
+}
+
+/* Cuando el campo de entrada tiene el foco o un valor */
+.input-container input:focus + label,
+.input-container input:valid + label {
+    top: -1.5rem;
+    left: 0;
+    color: var(--g-color);
+    font-size: 1rem;
+}
