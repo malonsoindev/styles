@@ -1,7 +1,9 @@
 @import url("inputs/input1.css"); 
 @import url("inputs/input2.css");
+@import url("inputs/input3.css");
 
 :root{
+    --bg-color-claro: #fff;
     --bg-color: #fff;
     --font-color: #333;
     --label-color: #999;

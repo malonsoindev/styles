@@ -1,23 +1,23 @@
 /* Contenedor */
-.input-container2 {
+.input-container3 {
     position: relative;
     margin: 1rem;
 }
 
 /*Input Field*/
-.input-container2 input {
+.input-container3 input {
     width: 100%;
     border: none;
     outline: none;
     border: 2px solid var(--g-color);
-    padding: 1.6rem 1rem 0.7rem 0.9rem;
-    font-size: 1.1rem;
+    padding: 1.7rem 1rem 0.5rem 0.9rem;
+    font-size: 1rem;
     color: var(--font-color);
     border-radius: 0.75rem;
 }
 
 /* Etiqueta */
-.input-container2 label {
+.input-container3 label {
     position: absolute;
     left: 0.5rem;
     top: 0.9rem;
@@ -29,12 +29,10 @@
 }
 
 /* Cuando el campo de entrada tiene el foco o un valor */
-.input-container2 input:focus + label,
-.input-container2 input:valid + label {
-    top: -0.45rem;
-    left: 1.1rem;
+.input-container3 input:focus + label,
+.input-container3 input:valid + label {
+    top: 0.4rem;
+    left: 0.95rem;
     color: var(--g-color);
-    background-color: var(--bg-color);
     font-size: 0.8rem;
-    padding: 0 0.5rem;
 }
